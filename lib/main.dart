@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:untitled/routing/navigation.dart';
 import 'package:untitled/routing/router.dart';
 import 'package:untitled/routing/routes.dart';
+import 'package:untitled/ui/pages/home.dart';
 import 'package:untitled/ui/pages/homePages/checkOut.dart';
 import 'package:untitled/ui/pages/homePages/myCart.dart';
+import 'package:untitled/ui/pages/homePages/newArrival.dart';
 import 'package:untitled/ui/pages/homePages/paymentCongratulation.dart';
 import 'package:untitled/ui/pages/homePages/productDetails.dart';
 import 'package:untitled/ui/pages/homePages/profile.dart';
@@ -32,13 +34,12 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
           scaffoldBackgroundColor: AppColors.scaffoldColor,
-
           fontFamily: 'Gordita'
       ),
       onGenerateRoute:RoutsGnerate.generateRoute,
       initialRoute:RouteGenerator.splashPage,
       navigatorKey: ServiceNavigations.navKey,
-      home: const Scaffold(body: CheckOut()),
+      home: const Scaffold(body: ProductDetails()),
     );
   }
 }

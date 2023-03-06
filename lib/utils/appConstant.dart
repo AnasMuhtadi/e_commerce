@@ -12,6 +12,8 @@ class AppColors {
   static Color scaffoldColor = const Color.fromRGBO(251, 251, 253, 1);
   static Color greyLite = const Color.fromRGBO(0, 0, 0, 0.1);
   static Color green = const Color.fromRGBO(57, 206, 138, 1);
+  static Color blueLite = const Color.fromRGBO(14, 162, 246, 0.07);
+  static Color yellowLite = const Color.fromRGBO(255, 193, 7, 0.07);
 
 }
 
@@ -19,6 +21,9 @@ class AppIcons {
   static String pathIcon = "assets/icons";
 
   static String filter = "$pathIcon/filter.svg";
+  static String star = "$pathIcon/star.svg";
+  static String bag = "$pathIcon/bag.svg";
+  static String ticket = "$pathIcon/ticket.svg";
   static String threePoints = "$pathIcon/threePoints.svg";
   static String applePay = "$pathIcon/applePay.svg";
   static String mastercard = "$pathIcon/mastercard.svg";

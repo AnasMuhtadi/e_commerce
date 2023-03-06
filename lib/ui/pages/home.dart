@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:untitled/ui/pages/homePages/favorite.dart';
 import 'package:untitled/ui/pages/homePages/mainHome.dart';
+import 'package:untitled/ui/pages/homePages/profile.dart';
 
 import '../../utils/appConstant.dart';
 
@@ -12,6 +14,7 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
+  List<Widget> bottomNavigationBarWidget = [MainHome(),MainHome(),Favorite(),Profile(),];
   int pageIndex = 0;
 
   @override
@@ -173,7 +176,7 @@ class _HomeState extends State<Home> {
           ],
         ),
       ),
-      body: MainHome(),
+      body: bottomNavigationBarWidget[pageIndex],
     );
   }
 }
