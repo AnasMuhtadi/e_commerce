@@ -5,6 +5,7 @@ import 'package:untitled/routing/routes.dart';
 import 'package:untitled/ui/pages/home.dart';
 import 'package:untitled/ui/pages/homePages/checkOut.dart';
 import 'package:untitled/ui/pages/homePages/myCart.dart';
+import 'package:untitled/ui/pages/homePages/myOrder.dart';
 import 'package:untitled/ui/pages/homePages/newArrival.dart';
 import 'package:untitled/ui/pages/homePages/paymentCongratulation.dart';
 import 'package:untitled/ui/pages/homePages/productDetails.dart';
@@ -39,7 +40,7 @@ class _MyAppState extends State<MyApp> {
       onGenerateRoute:RoutsGnerate.generateRoute,
       initialRoute:RouteGenerator.splashPage,
       navigatorKey: ServiceNavigations.navKey,
-      home: const Scaffold(body: ProductDetails()),
+      home: const Scaffold(body: MyOrder()),
     );
   }
 }
