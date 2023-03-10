@@ -40,7 +40,7 @@ class _MyAppState extends State<MyApp> {
       onGenerateRoute:RoutsGnerate.generateRoute,
       initialRoute:RouteGenerator.splashPage,
       navigatorKey: ServiceNavigations.navKey,
-      home: const Scaffold(body: MyOrder()),
+      home: const Scaffold(body: Home()),
     );
   }
 }
