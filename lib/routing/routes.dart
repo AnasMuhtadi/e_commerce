@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:untitled/routing/router.dart';
 import 'package:untitled/ui/pages/home.dart';
-import 'package:untitled/ui/pages/homePages/newArrival.dart';
+import 'package:untitled/ui/pages/homePages/new_arrival.dart';
 
 import '../ui/pages/login.dart';
 import '../ui/pages/onbording.dart';

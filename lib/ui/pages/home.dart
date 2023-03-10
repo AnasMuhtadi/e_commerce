@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:untitled/ui/pages/homePages/favorite.dart';
-import 'package:untitled/ui/pages/homePages/mainHome.dart';
+import 'package:untitled/ui/pages/homePages/main_home.dart';
 import 'package:untitled/ui/pages/homePages/profile.dart';
 
 import '../../utils/appConstant.dart';

@@ -12,8 +12,8 @@ class Favorite extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: PreferredSize(
-        preferredSize: Size.fromHeight(80),
-        child: CustomAppBar(leadingImage: Icon(Icons.arrow_back_ios,color: AppColors.black,),title: "Favorite",actionsImages: []),
+        preferredSize: const Size.fromHeight(80),
+        child: CustomAppBar(leadingImage: Icon(Icons.arrow_back_ios,color: AppColors.black,),title: "Favorite",actionsImages: const []),
 
       ),
       body:  SingleChildScrollView(
