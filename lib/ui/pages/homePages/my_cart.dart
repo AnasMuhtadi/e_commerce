@@ -31,7 +31,7 @@ class MyCart extends StatelessWidget {
                 child: Container(
                   height: 92,
                   width: MediaQuery.of(context).size.width,
-                  margin: EdgeInsets.only(bottom: 13),
+                  margin: const EdgeInsets.only(bottom: 13),
                   decoration: BoxDecoration(
                     color: AppColors.white,
                     borderRadius: BorderRadius.circular(10)
@@ -112,7 +112,7 @@ class MyCart extends StatelessWidget {
                 child: Container(
                   height: 92,
                   width: MediaQuery.of(context).size.width,
-                  margin: EdgeInsets.only(bottom: 13),
+                  margin: const EdgeInsets.only(bottom: 13),
                   decoration: BoxDecoration(
                       color: AppColors.white,
                       borderRadius: BorderRadius.circular(10)
@@ -193,7 +193,7 @@ class MyCart extends StatelessWidget {
                 child: Container(
                   height: 92,
                   width: MediaQuery.of(context).size.width,
-                  margin: EdgeInsets.only(bottom: 13),
+                  margin: const EdgeInsets.only(bottom: 13),
                   decoration: BoxDecoration(
                       color: AppColors.white,
                       borderRadius: BorderRadius.circular(10)
@@ -274,7 +274,7 @@ class MyCart extends StatelessWidget {
                 child: Container(
                   height: 92,
                   width: MediaQuery.of(context).size.width,
-                  margin: EdgeInsets.only(bottom: 13),
+                  margin: const EdgeInsets.only(bottom: 13),
                   decoration: BoxDecoration(
                       color: AppColors.white,
                       borderRadius: BorderRadius.circular(10)
@@ -360,7 +360,7 @@ class MyCart extends StatelessWidget {
               width: MediaQuery.of(context).size.width,
               child: Column(
                 children: [
-                  SizedBox(height: 10,),
+                  const SizedBox(height: 10,),
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 20),
                     child: Row(

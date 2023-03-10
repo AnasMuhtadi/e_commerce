@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:untitled/ui/widget/PersonInfoBox.dart';
-import 'package:untitled/ui/widget/checkOutPrise.dart';
 import 'package:untitled/ui/widget/profileBackground.dart';
 import 'package:untitled/ui/widget/profileDetails.dart';
 import 'package:untitled/utils/appConstant.dart';

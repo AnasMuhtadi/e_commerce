@@ -62,7 +62,7 @@ class PaymentCongratulation extends StatelessWidget {
             height: 60,
           ),
           MyButton(
-            libel: Text("Get your receipt"),
+            libel: const Text("Get your receipt"),
             onTap: () {},
           ),
           const SizedBox(
