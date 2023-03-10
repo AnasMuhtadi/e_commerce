@@ -7,9 +7,6 @@ import 'package:untitled/ui/shared/widget/formFildFilter.dart';
 import 'package:untitled/ui/shared/widget/item.dart';
 import 'package:untitled/ui/shared/widget/rowSeeAll.dart';
 import 'package:untitled/utils/appConstant.dart';
-
-import '../../../routing/navigation.dart';
-import '../../../routing/router.dart';
 import '../../shared/widget/customButton.dart';
 
 class MainHome extends StatefulWidget {
@@ -185,7 +182,7 @@ class _MainHomeState extends State<MainHome> {
                                 Row(
                                   mainAxisAlignment:
                                       MainAxisAlignment.spaceBetween,
-                                  children: [
+                                  children: const [
                                     Text("Pricing"),
                                     Text("\$50-\$200")
                                   ],
@@ -224,7 +221,7 @@ class _MainHomeState extends State<MainHome> {
                                 Row(
                                   mainAxisAlignment:
                                       MainAxisAlignment.spaceBetween,
-                                  children: [
+                                  children: const [
                                     Text("Distance"),
                                     Text("500m-2Km")
                                   ],
@@ -251,7 +248,7 @@ class _MainHomeState extends State<MainHome> {
                                   height: 30,
                                 ),
                                 MyButton(
-                                    libel: Text("Apply Filter"), onTap: () {})
+                                    libel: const Text("Apply Filter"), onTap: () {})
                               ],
                             ),
                           ),
@@ -385,7 +382,7 @@ class _MainHomeState extends State<MainHome> {
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [Text("Pricing"), Text("\$50-\$200")],
+                    children: const [Text("Pricing"), Text("\$50-\$200")],
                   ),
                   const SizedBox(
                     height: 30,
@@ -412,7 +409,7 @@ class _MainHomeState extends State<MainHome> {
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [Text("Distance"), Text("500m-2Km")],
+                    children: const [Text("Distance"), Text("500m-2Km")],
                   ),
                   RangeSlider(
                     values: (_currentRangeValues),
@@ -433,7 +430,7 @@ class _MainHomeState extends State<MainHome> {
                   const SizedBox(
                     height: 30,
                   ),
-                  MyButton(libel: Text("Apply Filter"), onTap: () {})
+                  MyButton(libel: const Text("Apply Filter"), onTap: () {})
                 ],
               ),
             ),
