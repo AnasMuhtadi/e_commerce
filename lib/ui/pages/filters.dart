@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:untitled/utils/appConstant.dart';
 
 class Filters{
-   void bottomSheetMore(context) {
+
+   static void bottomSheetMore(context) {
     showModalBottomSheet(
         isScrollControlled: true,
         shape: const RoundedRectangleBorder(
