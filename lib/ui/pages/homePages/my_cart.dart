@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:untitled/ui/shared/widget/customButton.dart';
 
-import '../../../utils/appConstant.dart';
+import '../../../utils/app_constant.dart';
 import '../../shared/widget/customAppBar.dart';
 
 class MyCart extends StatelessWidget {

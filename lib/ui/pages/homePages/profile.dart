@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:untitled/ui/widget/PersonInfoBox.dart';
 import 'package:untitled/ui/widget/profileBackground.dart';
 import 'package:untitled/ui/widget/profileDetails.dart';
-import 'package:untitled/utils/appConstant.dart';
+import 'package:untitled/utils/app_constant.dart';
 
 class Profile extends StatelessWidget {
   const Profile({Key? key}) : super(key: key);

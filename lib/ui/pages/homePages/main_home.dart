@@ -6,7 +6,7 @@ import 'package:untitled/ui/shared/widget/categoryItem.dart';
 import 'package:untitled/ui/shared/widget/formFildFilter.dart';
 import 'package:untitled/ui/shared/widget/item.dart';
 import 'package:untitled/ui/shared/widget/rowSeeAll.dart';
-import 'package:untitled/utils/appConstant.dart';
+import 'package:untitled/utils/app_constant.dart';
 import '../../shared/widget/customButton.dart';
 
 class MainHome extends StatefulWidget {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../utils/appConstant.dart';
+import '../../utils/app_constant.dart';
 
 class CheckOutPrice extends StatelessWidget {
   const CheckOutPrice({Key? key}) : super(key: key);

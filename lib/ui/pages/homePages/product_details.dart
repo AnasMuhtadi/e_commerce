@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:untitled/ui/shared/widget/customButton.dart';
-import 'package:untitled/utils/appConstant.dart';
+import 'package:untitled/utils/app_constant.dart';
 
 import '../../shared/widget/colorProduct.dart';
 

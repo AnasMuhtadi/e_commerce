@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/utils/appConstant.dart';
+import 'package:untitled/utils/app_constant.dart';
 
 class CustomAppBar extends StatelessWidget {
   CustomAppBar({required this.leadingImage,required this.title,required this.actionsImages, Key? key}) : super(key: key);

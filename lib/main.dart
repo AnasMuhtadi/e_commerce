@@ -12,7 +12,7 @@ import 'package:untitled/ui/pages/homePages/product_details.dart';
 import 'package:untitled/ui/pages/homePages/profile.dart';
 import 'package:untitled/ui/pages/signUp.dart';
 import 'package:untitled/ui/pages/splach.dart';
-import 'package:untitled/utils/appConstant.dart';
+import 'package:untitled/utils/app_constant.dart';
 
 
 void main() {

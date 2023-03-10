@@ -4,7 +4,7 @@ import 'package:untitled/ui/pages/homePages/favorite.dart';
 import 'package:untitled/ui/pages/homePages/main_home.dart';
 import 'package:untitled/ui/pages/homePages/profile.dart';
 
-import '../../utils/appConstant.dart';
+import '../../utils/app_constant.dart';
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);

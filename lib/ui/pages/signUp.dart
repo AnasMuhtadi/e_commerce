@@ -1,8 +1,8 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:untitled/utils/appConstant.dart';
-import 'package:untitled/utils/formValidate.dart';
+import 'package:untitled/utils/app_constant.dart';
+import 'package:untitled/utils/form_validate.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 

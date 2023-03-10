@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-import '../../../utils/appConstant.dart';
+import '../../../utils/app_constant.dart';
 
 class OnbordingButton extends StatelessWidget {
   OnbordingButton({required this.pageNum, Key? key}) : super(key: key);

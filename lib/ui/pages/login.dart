@@ -6,7 +6,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../routing/navigation.dart';
 import '../../routing/router.dart';
-import '../../utils/appConstant.dart';
+import '../../utils/app_constant.dart';
 import '../shared/widget/customButton.dart';
 import '../shared/widget/customLogin(or).dart';
 import '../shared/widget/customTextFormFild.dart';

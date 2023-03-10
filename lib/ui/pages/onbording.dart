@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:untitled/ui/shared/widget/onBordingBotton.dart';
 import 'package:untitled/ui/shared/widget/rowSeeAll.dart';
-import 'package:untitled/utils/appConstant.dart';
+import 'package:untitled/utils/app_constant.dart';
 import '../../routing/navigation.dart';
 import '../../routing/router.dart';
 import '../shared/widget/customButton.dart';

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
-import '../../utils/appConstant.dart';
+import '../../utils/app_constant.dart';
 
 
 class PersonInfoBox extends StatelessWidget {

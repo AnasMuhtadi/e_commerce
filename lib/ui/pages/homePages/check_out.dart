@@ -4,7 +4,7 @@ import 'package:untitled/ui/shared/widget/customButton.dart';
 import 'package:untitled/ui/widget/checkOutCard.dart';
 import 'package:untitled/ui/widget/checkOutPrise.dart';
 import 'package:untitled/ui/widget/paymentMethod.dart';
-import 'package:untitled/utils/appConstant.dart';
+import 'package:untitled/utils/app_constant.dart';
 
 class CheckOut extends StatefulWidget {
   const CheckOut({Key? key}) : super(key: key);
