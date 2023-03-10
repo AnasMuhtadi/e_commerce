@@ -3,7 +3,7 @@ import 'package:untitled/routing/navigation.dart';
 import 'package:untitled/routing/router.dart';
 import 'package:untitled/routing/routes.dart';
 import 'package:untitled/ui/pages/home.dart';
-import 'package:untitled/ui/pages/homePages/checkOut.dart';
+import 'package:untitled/ui/pages/homePages/check_out.dart';
 import 'package:untitled/ui/pages/homePages/myCart.dart';
 import 'package:untitled/ui/pages/homePages/myOrder.dart';
 import 'package:untitled/ui/pages/homePages/newArrival.dart';
